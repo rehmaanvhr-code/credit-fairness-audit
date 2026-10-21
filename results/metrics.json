@@ -1,0 +1,66 @@
+{
+  "sex": {
+    "gbm, all features": {
+      "accuracy": 0.749,
+      "dp_diff": 0.027910238429172507,
+      "eo_diff": 0.04904174071761369
+    },
+    "gbm, sensitive columns dropped": {
+      "accuracy": 0.758,
+      "dp_diff": 0.014679756895745744,
+      "eo_diff": 0.022672210091825407
+    },
+    "logreg, all features": {
+      "accuracy": 0.755,
+      "dp_diff": 0.0977559607293127,
+      "eo_diff": 0.13819107545991638
+    },
+    "exp gradient, demographic parity": {
+      "accuracy": 0.734,
+      "dp_diff": 0.0021505376344086446,
+      "eo_diff": 0.038714635669340525
+    },
+    "exp gradient, equalized odds": {
+      "accuracy": 0.739,
+      "dp_diff": 0.01762505843852269,
+      "eo_diff": 0.005956097795283166
+    },
+    "threshold optimizer, equalized odds": {
+      "accuracy": 0.744,
+      "dp_diff": 0.021692379616643276,
+      "eo_diff": 0.036024785052115815
+    }
+  },
+  "age_group": {
+    "gbm, all features": {
+      "accuracy": 0.749,
+      "dp_diff": 0.1788823911630929,
+      "eo_diff": 0.15454545454545449
+    },
+    "gbm, sensitive columns dropped": {
+      "accuracy": 0.758,
+      "dp_diff": 0.11604938271604948,
+      "eo_diff": 0.06872110939907561
+    },
+    "logreg, all features": {
+      "accuracy": 0.755,
+      "dp_diff": 0.15328135152696554,
+      "eo_diff": 0.113713405238829
+    },
+    "exp gradient, demographic parity": {
+      "accuracy": 0.738,
+      "dp_diff": 0.03716699155295644,
+      "eo_diff": 0.05681818181818177
+    },
+    "exp gradient, equalized odds": {
+      "accuracy": 0.749,
+      "dp_diff": 0.055165692007797196,
+      "eo_diff": 0.06931818181818183
+    },
+    "threshold optimizer, equalized odds": {
+      "accuracy": 0.747,
+      "dp_diff": 0.1185834957764782,
+      "eo_diff": 0.09722650231124808
+    }
+  }
+}
